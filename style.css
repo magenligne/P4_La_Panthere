@@ -195,7 +195,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+.d-bloc .panel
  {
     color: rgba(0, 0, 0, .5);
 }
@@ -657,7 +657,7 @@ a {
 }
 
 .text-center mg-lg tight-width-whitespace {
-    color:FFFFF5;
+    color:#FFFFF5;
 }             
 
 .container {
@@ -857,13 +857,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
